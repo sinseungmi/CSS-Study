@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&family=Nanum+Myeongjo&family=Stylish&display=swap');
+
+html {
+    font-family: 'Gaegu', cursive;
+}
+
+div {
+    font-size: 35px;
+}
+
+#div1 {
+     font-family: 'Nanum Myeongjo', cursive;
+}
+
+#div2 {
+    font-family: 'Stylish', 'Nanum Myeongjo', sans-serif , cursive;
+}

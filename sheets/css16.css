@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    background-color: lightcoral;
+
+    grid-template-columns: 25% 25% 100px auto; /*auto는 남은 공간을 차지해라*/
+    grid-template-rows: 100px 500px auto;
+
+}
+
+.grid-container > * {
+    background-color: white;
+    border: solid darkred 5px;
+    font-size: 35px;
+}
+
+.grid-container2 {
+    display: grid;
+    background-color: black;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  300px 300px;
+
+    column-gap:  15px;
+    row-gap: 15px;
+
+    padding: 15px;
+}
+
+.grid-container2 > * {
+    background-color: white;
+    font-size: 35px;
+}

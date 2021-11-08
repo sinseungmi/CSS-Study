@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01_CSS.html</title>
+    <style>
+
+        /*div, span 둘 다 특정 영역에 스타일을 준다. 차이점은
+        div는 block 요소이기 때문에 넓은 영역을, span은 inline이므로
+        일부분의 영역을 지정한다.*/
+        
+        div {
+            color: black;
+            font-weight: bold;
+            padding: 30px;
+            border-radius: 20px;
+            border:dashed 5px orange;
+            box-shadow: gray 10px 10px 10px;
+        }
+
+        span {
+            text-decoration: blueviolet wavy underline 2px;
+            background-color: cadetblue;
+            color: white;
+        }
+        p {
+            font-size: 13px;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            box-shadow: 10px 10px 10px gray;
+            border: solid ivory 1px;
+            padding: 20px;
+            text-shadow: 3px 3px 3px gray;
+        }
+    </style>
+</head>
+<body>
+
+    <h3># CSS(Cascading Style Sheet)</h3>
+    
+    <ul style="box-shadow: gray 10px 10px 10px;">
+        <li>모든 HTML요소가 어떤 모습으로 보여야할지 정의해놓는 곳</li>
+        <li>스타일 시트를 작성할 때는 CSS라는 언어를 사용한다</li>
+        <li>웹 브라우저는 스타일시트를 해석하여 해당 요소의 디자인을 결정한다</li>
+    </ul>
+
+    <!--div: 아무것도 아닌 블록 요소를 하나 생성하는 태그-->
+    <!--span: 아무것도 아닌 인라인 요소를 하나 생성하는 태그-->
+
+    <div> <!--div는 영역-->
+        지난 23일 경기도 시흥시 북한이탈주민보호센터. <span>국가정보원은 센터가 
+        건립된 2014년 이후 두 번째로 이곳 시설을 언론에 공개했다.</span> <br><br>
+        탈북민 중 일부가 이곳에서 인권침해를 받았다고 주장하자 시설과 관리방침을 
+        대폭 변경하는 등 투명성 강화 조치를 했고 결과물을 소개한 것이다. <br><br>
+        이곳은 지난 2013년 이른바 ‘유우성 간첩조작 사건’의 허위자백 강요 
+        사실이 알려진 이후 큰 폭의 변화가 이뤄졌다.
+    </div>
+
+    <p>
+        이곳은 지난 2013년 이른바 ‘유우성 간첩조작 사건’의 허위자백 강요 
+        사실이 알려진 이후 큰 폭의 변화가 이뤄졌다.
+    </p>
+
+</body>
+</html>

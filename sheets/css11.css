@@ -1,0 +1,32 @@
+.material-icons {
+    color: red;
+    font-size: 25px;
+}
+
+.material-icons-sharp {
+    color: blue;
+}
+
+.material-icons.salmon {
+    color: salmon;
+}
+
+.material-icons.yellow {
+    color: yellow;
+}
+
+.material-icons.green {
+    color: green;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.normal {
+    font-size: 25px;
+}
+
+.big {
+    font-size: 35px;
+}

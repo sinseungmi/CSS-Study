@@ -1,0 +1,55 @@
+div {
+    border:solid black 3px;
+    height: 300px;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+/* 배경에 이미지 넣기 */
+div:first-child {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjlfMTEy%2FMDAxNjE5Njg5NjI5Mjc0.9aqyJ8sVearvfTzGhZ-zOHxnQftIIqhaYYlcnMF_uVYg.Gtk1JbBQMZPq2WmRv57FkbynhF5_EVlmJ3DmrXhyQzAg.JPEG.s949411%2F20210429_184330.jpg&type=sc960_832');
+
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-size: cover;
+    background-size: 150px 150px;
+    
+    background-position: right bottom;
+    
+    height:  500px;
+    
+}
+
+div:nth-child(2){
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjlfMTEy%2FMDAxNjE5Njg5NjI5Mjc0.9aqyJ8sVearvfTzGhZ-zOHxnQftIIqhaYYlcnMF_uVYg.Gtk1JbBQMZPq2WmRv57FkbynhF5_EVlmJ3DmrXhyQzAg.JPEG.s949411%2F20210429_184330.jpg&type=sc960_832');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+    
+}
+
+div:nth-child(3) {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjFfMjAx%2FMDAxNTgyMjkyODUwOTEw.Ti7mna0PAc3aNhBiOHE4qZzfDDs_Pi-lJXgn11DakuEg.e4FHKSVL2_uaCGcAGmchlXpvlHksLqUDVeYArzyrOvgg.JPEG.zippppuuuu%2F1582292850736.jpg&type=a340');
+    background-repeat: round;
+    background-size: 120px;
+    background-color: lightblue;
+    background-blend-mode: darken;
+    
+}
+
+div:nth-child(4) {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjFfMjAx%2FMDAxNTgyMjkyODUwOTEw.Ti7mna0PAc3aNhBiOHE4qZzfDDs_Pi-lJXgn11DakuEg.e4FHKSVL2_uaCGcAGmchlXpvlHksLqUDVeYArzyrOvgg.JPEG.zippppuuuu%2F1582292850736.jpg&type=a340');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+div:nth-child(5) {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAyMjFfMjAx%2FMDAxNTgyMjkyODUwOTEw.Ti7mna0PAc3aNhBiOHE4qZzfDDs_Pi-lJXgn11DakuEg.e4FHKSVL2_uaCGcAGmchlXpvlHksLqUDVeYArzyrOvgg.JPEG.zippppuuuu%2F1582292850736.jpg&type=a340');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 100px 100px;
+
+    height: 200px;
+}

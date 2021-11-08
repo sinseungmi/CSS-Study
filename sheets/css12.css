@@ -1,0 +1,66 @@
+dl {
+    font-size: 25px;
+    border: dashed orange 3px;
+    padding:  30px;
+}
+
+dt {
+    font-weight: bold;
+    border: firebrick solid 3px;
+    border-radius: 15px;
+    background-color: lemonchiffon;
+    padding: 5px;
+}
+
+dd {
+    font-size: 0.7em;
+}
+
+dd:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#click {
+    background-color: red;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 150px;
+    
+    border:outset gray 5px;
+    user-select: none;
+}
+
+#click:active {
+    background-color: rgb(146, 11, 11);
+    border-style: inset;
+}
+
+:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(fr) > q { quotes: '« ' ' »'; }
+:lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
+
+input:enabled {
+    color: blue;
+  }
+
+input:enabled {
+color: #2b2;
+}
+
+input:disabled {
+color: #aaa;
+}
+
+
+/* Case1 */ 
+div p:nth-child(3) { color: red; } 
+/* Case2 */ 
+div p:nth-of-type(1) { color: green; }
+
+
+
+

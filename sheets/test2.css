@@ -1,0 +1,216 @@
+
+body {
+    background-image: url('https://img.appstory.co.kr/@files/monthly.appstory.co.kr/content/201710/5cb00799f463a63e3989226aaee080d4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+}
+
+.grid-container {
+    display: grid;
+
+    height: 80px;
+    grid-template-columns: 80px 280px 70px 80px 100px 80px 400px 1fr 40px;
+}
+
+#favorite {
+    margin-left: 12px;
+    font-size: 50px;
+    color: rgba(80, 113, 209, 0.667);
+    text-shadow: 0px 0px 3px rgb(52, 90, 172);
+}
+
+#progress1 {
+    margin-bottom: 2px;
+}
+
+#text {
+    text-shadow: 0px 0px 3px rgb(71, 129, 255);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 2px;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+
+#text2, #text3 {
+    text-shadow: 0px 0px 3px rgb(255, 255, 181);
+    position: absolute;
+    margin-left: 100px;
+    color: white;
+}
+
+#보석 {
+    height: 35px;
+    margin-top: 4px;
+    filter: drop-shadow(0px 0px 3px white);
+}
+
+#info, #coin {
+    text-shadow: 0px 0px 3px rgb(255, 247, 220);
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#num {
+    position: relative;
+    top: -6px;
+}
+
+#exchange {
+    color: white;
+    font-size: 30px;
+}
+
+.container2 {
+    display: grid;
+
+    height: 50px;
+    grid-template-columns:260px 260px 260px auto;
+}
+
+.container2 > div {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 148);
+}
+
+.container2 > div > span {
+    position: relative; 
+    bottom: -5px;
+}
+
+.container3 {
+    display: flex;
+
+    height: 800px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.side > * {
+    opacity: 0.5;
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px rgb(255, 248, 147);
+    padding: 15px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.side > :first-child {
+    padding: 5px;
+}
+
+.arrow {
+    position: relative;
+    left: 90px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 18% 18% 18% 18% 18% 18%;
+}
+
+.box {
+    margin-top: 10px;
+    margin:10px;
+    height:100px;
+    background-color: rgba(85, 85, 85, 0.5);
+    padding: 65px;
+}
+
+input {
+    background-color: rgb(85, 85, 85);
+    opacity: 0.5;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    width: 200px; 
+    height: 36px; 
+    text-shadow: 0px 0px 3px rgb(255, 255, 187);
+    color: white;
+    background-color: rgb(172, 104, 92);
+}
+
+#name {
+    margin-top: -80px;
+    width: 1200px;
+    height: 50px;
+    opacity: 0.5;
+    background-color: rgb(85, 85, 85);
+}
+
+.main > :first-child, .main > :nth-of-type(2) {
+    height: 50px;
+}
+
+.name2 {
+    color: white;
+    text-shadow: 0px 0px 5px rgb(255, 255, 148);
+    font-size: 17px;
+    margin: 250px;
+    position: relative;
+    bottom: -10px;
+}
+
+.weapon {
+    position: relative;
+    left: -50px;
+    bottom: 50px;
+    width: 70px;
+}
+
+.sale {
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+    background-color: rgb(17, 29, 49);
+    height: 50px;
+}
+
+.weapon_name {
+    position: relative;
+    right: 40px;
+    bottom: 60px;
+    color: rgba(255, 255, 255, 0.974);
+    font-size: 18px;
+}
+
+#하 {
+    position: relative;
+    bottom: 100px;
+}
+
+#힘들 {
+    position: relative;
+    left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

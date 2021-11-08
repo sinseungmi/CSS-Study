@@ -1,0 +1,35 @@
+html {
+    font-size: 15px;
+}
+
+div {
+    font-size: 25px;
+    border: solid black 1px;
+    margin: 5px;
+}
+
+.em10 {
+    width: 10.0em;
+}
+
+.rem10 {
+    width: 10.0rem;
+}
+
+.vw30 {
+    width: 30vw;
+}
+
+.vh30 {
+    width: 30vh;
+}
+
+/*
+div에 font-size를 1.2em으로 지정했습니다. 이 예제에서는 14px을 기준으로 
+1.2배의 폰트 사이즈로 표현이 됩니다. 결과적으로 16.8px의 크기가 됩니다. 
+*/
+/*
+ vh 요소는 높이값의 100분의 1의 단위입니다. 
+예를 들어 브라우저 높이값이 900px일때 1vh는 9px이라는 뜻이 되지요. 
+그와 유사하게 뷰포트의 너비값이 750px이면 1vw는 7.5px이 됩니다. 
+*/

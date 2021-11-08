@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: solid 3px black;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+
+    bottom: 100px;
+    right: 100px;
+}
+
+.rect {
+    width: 100px;
+    height: 100px;
+    border: solid 3px black;
+}
+
+.tetris {
+    width: 300px;
+    height: 50px;
+    border: solid 3px black;
+    position: sticky;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.nav-bar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    user-select: none;
+
+}
+
+.nav-bar > i:first-child {
+    margin-left: 15px;
+}
+
+.nav-bar > i {
+    position: relative;
+    top: 12px;
+    margin-right: 15px;
+}
+
+#div1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    opacity: 1.0; /*불투명도*/
+    z-index: -1;  /*포지션이 static이 아닌 요소는 z-index를 설정할 수 있다*/
+}
+
+#div2 {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    z-index: -3;
+}
+
+/*div를 빨강과 노랑 사이에 끼워보세요*/
+#div3 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: -2;
+}
+
+#block1 {
+    top: 50px; /*여기서 고정될 위치를 선정하는 것*/
+    left: 100px;
+}
+
+#block2 {
+    top: 100px;
+    left: 150px;
+}
+
+#block3 {
+    top: 150px;
+    left: 200px;
+}

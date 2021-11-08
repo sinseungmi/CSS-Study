@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500&family=Noto+Sans:wght@700&display=swap');
+
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+}
+
+#container1 {
+    display: flex;
+    background-color: rgb(255, 152, 224);
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+#container1 > div {
+    font-size: 15px;
+    color: white;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 25% 25% 8% auto;
+}
+
+.grid-container > div:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    position: relative;
+    left: 160px;
+    bottom: -5px;
+
+}
+
+.grid-container > div:nth-of-type(2) {
+    position: relative;
+    left: 160px;
+}
+
+.grid-container > div:nth-of-type(5) {
+    position: relative;
+    bottom: -5px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+#hobbyinput {
+    background-color: rgb(243, 243, 243);
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+#searchIcon {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 5px;
+}
+
+#favoriteIcon, #labelIcon {
+    font-size: 25px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    color: rgb(24, 24, 24);
+}
+
+.flex-container {
+    display: flex;
+    margin: 25px;
+    margin-bottom: 15px;
+    margin-left: 160px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#font {
+    font-weight: 100;
+}
+
+#background {
+    display: grid;
+    background-color: rgb(255, 119, 214);
+
+    grid-template-columns: 1fr;
+    grid-template-rows:  100px 300px;
+
+    width: 1520px;
+
+    
+    position: relative;
+    left: -160px;
+}
+
+#image {
+    position: absolute;
+    margin-top: 90px;
+}
+
+#today {
+    right: 1000px; position: relative;
+    left: 850px;
+    bottom: -50px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#today > span{
+    font-size: 15px; 
+    font-weight: 100;
+}
+
+

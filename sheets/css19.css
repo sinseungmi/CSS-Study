@@ -1,0 +1,43 @@
+.nav-bar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+
+    flex-direction: row;
+}
+
+.nav-bar > a {
+    background-color: grey;
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav-bar > a:visited {  /*a의 글씨는 visited로 설정해야한다*/
+    color: white;
+}
+
+/*모든 타입 기기에서 0 ~ 600px까지는 이 스타일을 적용할 것*/
+@media all and (max-width: 600px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-bar > a {
+        background-color: red;
+    }
+
+}
+
+@media print and (min-width: 600px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-bar > a {
+        background-color: darkturquoise;
+        color: black;
+    }
+}

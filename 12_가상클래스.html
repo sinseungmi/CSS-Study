@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12_가상클래스</title>
+    <link rel="stylesheet" href="./sheets/css12.css">
+</head>
+<body>
+
+    <h3># 가상 클래스 (Pseudo Class)</h3>
+
+    <ul>
+        <li>
+            선택자에 추가하는 키워드로, 선택한 요소가 특별한 상태여야 만족할 수 있습니다. 
+            예를 들어 :hover를 사용하면 포인터를 올렸을 때에만 글씨 색을 
+            바꾸고 싶을 때 사용할 수 있습니다.
+        </li>
+        <li>선택자에 가상 클래스를 사용하여 해당 요소의 
+            특정 상황만을 선택 할 수 있다</li>
+        <li>선택자 뒤에 :을 붙여 원하는 상황을 선택한다</li>
+    </ul>
+
+    <h3># 가상 클래스들</h3>
+
+    <div> 
+        <div>text1</div> 
+        <p>text2</p> 
+        <p>text3</p> 
+    </div>
+
+    <dl>
+        <dt>first-child, nth-child(n/even/odd), last-child</dt>
+        <dd>- 요소가 부모의 특정 번째 요소일 때를 선택함</dd>
+
+        <dt>first-of-type, nth-of-type(n/even/odd), last-of-type</dt>
+        <dd>- 요소가 같은 타입들 중에서 특정 번째 요소일 때를 선택함</dd>
+
+        <dt>hover</dt>
+        <dd>- 요소에 마우스가 올라가 있는 상황을 선택함</dd>
+
+        <dt>link</dt>
+        <dd>- 해당 요소가 링크일 때를 선택한다</dd>
+
+        <dt>active</dt>
+        <dd>- 해당 링크가 마우스로 활성화되고 있는 상황을 선택한다</dd>
+    
+        <dt>visited</dt>
+        <dd>- 해당 링크가 이미 방문했던 링크일 때를 선택한다</dd>
+    
+        <!--표준 의사 클래스 참고(MDN)-->
+    </dl>
+
+    <p id="click">Click Me!</p>
+
+    <h3># 배우지 않은 가상 클래스를 하나 선택하고 적절한 예제를 만들어보세요</h3>
+    
+    <div lang="en"><q>This English quote has a <q>nested</q> quote inside.</q></div>
+    <div lang="fr"><q>This French quote has a <q>nested</q> quote inside.</q></div>
+    <div lang="de"><q>This German quote has a <q>nested</q> quote inside.</q></div>
+
+    <br>
+
+    <form action="url_of_form">
+        <label for="FirstField">First field (enabled):</label>
+        <input type="text" id="FirstField" value="Lorem"><br>
+      
+        <label for="SecondField">Second field (disabled):</label>
+        <input type="text" id="SecondField" value="Ipsum" disabled="disabled"><br>
+      
+        <input type="button" value="Submit">
+    </form>
+
+</body>
+</html>

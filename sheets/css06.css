@@ -1,0 +1,59 @@
+/*마우스 오른쪽을 눌러서 검사로 css 설정을 볼 수 있다*/
+
+div {
+    border: solid 3px black;
+    font-size: 35px;
+}
+
+body {
+    border: solid 1px green;
+}
+
+#div1 {
+    margin: 50px 25px;
+}
+
+#div2 {
+    margin: 50px;
+}
+
+#div3 {
+    width: 200px;
+    margin: auto;
+}
+
+.padding1 {
+    padding: 50px;
+}
+
+.padding2 {
+    padding: 100px;
+}
+
+#box1 {
+    border: solid 35px black;
+    background-color: yellow;
+    width: 100px; /*width는 컨텐츠박스(요소)만 설정한다는 걸 기억(border,padding등은 미포함)*/
+    padding: 100px;
+    /*margin: 50px auto;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content { /*width를 content만 측정한다*/
+    box-sizing:  content-box; /*기본값*/
+    background-color: red;
+    color: white;
+    border: 15px solid black;
+    width: 350px;
+}
+
+#border { /*width를 border까지 같이 측정한다.그래서 사이즈 예측을 하기 쉽다*/
+    box-sizing: border-box;
+    background-color: darkslateblue;
+    color: white;
+    border: 15px solid gray;
+    width: 350px;
+}
